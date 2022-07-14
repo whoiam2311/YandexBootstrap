@@ -1,18 +1,35 @@
-.old_title_button {
-	background: #4B759E;
-    border: 1px solid #152842;
-    box-shadow: inset 0px 1px 2px rgb(10 15 26 / 8%);
-    color: white;
-    border-radius: 0px;
-
-    font-size: 15px;
-    text-align: center;
-
-    /* White BG */
-
-    color: #FFFFFF;
+.new_label_profile {
+	margin-left: 40px;
 }
 
+.new_label_profile p span {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #0F172A;
+}
+
+.new_label_profile p {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+
+	color: #64748B;
+}
+.profile {
+	display: flex;
+}
+
+
+
+.btn_block {
+  
+	border: 1px solid #64748B;
+	border-radius: 24px;
+	width: 217px;
+	height: 36px;
+}
 .left {
 	margin-left: 189px;
 }
@@ -106,21 +123,27 @@
 .label_profile{
     margin-left: 20px;
     margin-bottom: 64px;
+    font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #0F172A;
 }
 
 .label_profile p {
-    font-family: 'Arial';
+	font-family: 'Arial';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 900;
 	font-size: 14px;
 	line-height: 16px;
 	color: #666787;
-	margin-bottom: 8px;
+	margin-bottom: 12px;
+    
 }
 
 .label_profile p span{
     
-    font-weight: 700;
+    font-weight: 600;
 	font-size: 14px;
 	line-height: 16px;
 	color: #2C3540;
@@ -148,3 +171,85 @@
 .mb5{
     margin-bottom: 5px;
 }
+
+
+.time_select {
+	
+	margin-top: 24px;
+	width: 453px;
+}
+
+.form_label {
+	margin-bottom: 8px;
+    
+	
+	font-weight: 400;
+	font-size: 13px;
+	color: #94A3B8;
+	line-height: 12px;
+}
+
+.form-select {
+	
+	border-radius: 24px;
+	font-size: 15px;
+	font-weight: 400;
+	
+	/* background-image: url("../Icons/check_time_icon.svg"); */
+	background-size: 16px 20px;
+}
+
+
+
+.main_big_block {
+	margin-right: 10px;
+	margin-top: 128px;
+}
+.block {
+	margin: 32px;
+}
+
+
+
+.cell_drag {
+	padding: 43px 0px 0px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+
+
+.btn_bottom {
+	margin-top: 180px;
+}
+
+.main_title {
+	
+	font-weight: 500;
+	font-size: 28px;
+	color: #0F172A;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	margin-bottom: 45px;
+}
+
+.title_button {
+	margin-top: 10px;
+	align-items: center;
+	gap: 16px;
+
+	width: 217px;
+	height: 36px;
+	color: white;
+	background: #3B82F6;
+	border-radius: 24px;
+}
+
